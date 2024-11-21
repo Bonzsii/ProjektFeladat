@@ -5,8 +5,8 @@ let currentColorIndex = 0;
 
 setInterval(function() {
     
-    document.title = "%c" + document.title; 
-    document.title = document.title.replace("%c", "color: " + colors[currentColorIndex] + ";");
+    document.getElementById("#title") = "%c" + document.getElementById("#title"); 
+    document.getElementById("#title") = document.getElementById("#title").replace("%c", "color: " + colors[currentColorIndex] + ";");
 
    
     currentColorIndex = (currentColorIndex + 1) % colors.length;
