@@ -13,13 +13,16 @@ let timeLeft = 10;
             }
         }, 1000); 
 
-document.addEventListener('DOMContentLoaded', function() {
 
-    setTimeout(function() {
+        document.addEventListener('DOMContentLoaded', function() {
+
+            setTimeout(function() {
                
-        let animMessage = document.createElement("p");
+                let animMessage = document.createElement("p");
                 
-        animMessage.textContent = "Kezdődik a varázslat!"; 
+             
+                animMessage.textContent = "Kezdődik a varázslat!";
+                
            
         document.body.appendChild(animMessage);
             animMessage.style.position = "absolute";
@@ -31,4 +34,3 @@ document.addEventListener('DOMContentLoaded', function() {
             animMessage.style.fontWeight = "bold";
     }, 3000)
 });
-        
