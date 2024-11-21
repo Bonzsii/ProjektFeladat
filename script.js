@@ -14,6 +14,7 @@ let timeLeft = 10;
         }, 1000); 
 
 
+<<<<<<< HEAD
         document.addEventListener('DOMContentLoaded', function() {
 
             setTimeout(function() {
@@ -34,3 +35,6 @@ let timeLeft = 10;
             animMessage.style.fontWeight = "bold";
     }, 3000)
 });
+=======
+        
+>>>>>>> 8b0c7c3a398e97886c53df0e914b354ee90eabba
