@@ -1,10 +1,11 @@
 let timeLeft = 10;
         const szamlalo = document.getElementById('countdown');
         const uzenet = document.getElementById('message');
-
+     uzenet.style.display = 'none'
         const interval = setInterval(() => {
             timeLeft--;
             szamlalo.textContent = timeLeft;
+           
 
             if (timeLeft === 0) {
                 clearInterval(interval);
