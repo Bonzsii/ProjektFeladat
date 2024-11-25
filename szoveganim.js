@@ -1,13 +1,10 @@
+const colors = ['red', 'blue', 'green', 'orange', 'purple'];
 
-const colors = ['#FF6347', '#32CD32', '#1E90FF', '#FFD700', '#8A2BE2'];
-
-let currentColorIndex = 0;
-
-setInterval(function() {
+         
+    setInterval(() => {
+          
+        const randomColor = colors[Math.floor(Math.random() * colors.length)];
+            
     
-    document.getElementById("#title") = "%c" + document.getElementById("#title"); 
-    document.getElementById("#title") = document.getElementById("#title").replace("%c", "color: " + colors[currentColorIndex] + ";");
-
-   
-    currentColorIndex = (currentColorIndex + 1) % colors.length;
-}, 1000); 
+        document.getElementById('tit').style.color = randomColor;
+    }, 1000);
