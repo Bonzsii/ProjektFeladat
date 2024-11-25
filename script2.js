@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
             animMessage.style.left = "50%";
             animMessage.style.transform = "translate(-50%, -50%)";
             animMessage.style.fontSize = "40px";
-            animMessage.style.color = "crimson"; 
+            animMessage.style.color = ""; 
             animMessage.style.fontWeight = "bold";
     }, 3000)
 });
